@@ -1,0 +1,21 @@
+{
+	"extends": "next/core-web-vitals",
+	"rules": {
+		"brace-style": ["error", "stroustrup"],
+		"object-curly-spacing": ["error", "always"],
+		"space-infix-ops": ["error", { "int32Hint": false }],
+		"arrow-spacing": ["error", { "before": true, "after": true }],
+		"keyword-spacing": ["error", { "before":  true, "after": true }],
+		"space-before-blocks": ["error", "always"],
+		"no-multiple-empty-lines": ["error", { "max": 1 }],
+		"space-before-function-paren": ["error", "always"],
+		"padding-line-between-statements": ["error", { "blankLine": "always", "prev": "var", "next": "return" }],
+		"padded-blocks": ["error", "never"],
+		"no-inline-comments": "error",
+		"require-await": "error",
+		"indent": ["error", "tab"],
+		"react/no-unescaped-entities": 0,
+		"quotes": ["error", "double", { "avoidEscape": true }],
+		"@next/next/no-img-element": "off"
+	}
+}
